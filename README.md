@@ -672,7 +672,8 @@ chore/   → Maintenance tasks    (chore/update-dependencies)
 
 | Document | Description |
 |----------|-------------|
-| 📘 **[PROJECT_BLUEPRINT.md](./PROJECT_BLUEPRINT.md)** | Comprehensive 3,000+ line technical blueprint covering architecture, tech stack, all 6 modules with data models, dynamic networking architecture, multi-device flow, database design, security, API endpoints, development timeline, cost estimates, and more |
+| 📘 **[PROJECT_BLUEPRINT.md](./PROJECT_BLUEPRINT.md)** | Comprehensive 3,200+ line technical blueprint covering architecture, tech stack, all 6 modules with data models, dynamic networking architecture, multi-device flow, database design, security, API endpoints, cost estimates, and more |
+| 📕 **[DEVELOPMENT_ROADMAP.md](./DEVELOPMENT_ROADMAP.md)** | Detailed 1,000+ line step-by-step implementation plan — every phase, sprint, week, and day broken down into numbered tasks with owner, time estimates, priority, dependencies, exit criteria, risk checkpoints, and go/no-go gates |
 | 📗 **API Documentation** | Auto-generated Swagger/OpenAPI docs (available at `/api/docs` when server is running) |
 | 📙 **User Guide** | Coming soon (Phase 2) |
 
