@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+@theme {
+  /* Brand Colors */
+  --color-primary: #E85D2C;
+  --color-primary-dark: #C44A1E;
+  --color-primary-light: #FFF0EB;
+
+  /* Secondary */
+  --color-secondary: #1B2D45;
+  --color-secondary-light: #2A4365;
+  --color-accent: #F4A623;
+  --color-accent-alt: #2D9F6F;
+
+  /* Neutrals */
+  --color-bg: #FAFAF8;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5F3EF;
+  --color-border: #E8E4DD;
+  --color-border-strong: #C9C3B8;
+
+  /* Text */
+  --color-text-primary: #1A1A18;
+  --color-text-secondary: #6B6560;
+  --color-text-tertiary: #9C9590;
+  --color-text-inverse: #FAFAF8;
+
+  /* Semantic */
+  --color-success: #2D9F6F;
+  --color-success-bg: #EDFAF3;
+  --color-warning: #E8A817;
+  --color-warning-bg: #FFF8E6;
+  --color-error: #D93B3B;
+  --color-error-bg: #FEF0F0;
+  --color-info: #3B82C4;
+  --color-info-bg: #EFF6FF;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(26, 26, 24, 0.06);
+  --shadow-card-hover: 0 4px 12px rgba(26, 26, 24, 0.1);
+  --shadow-modal: 0 20px 60px rgba(26, 26, 24, 0.2);
+
+  /* Typography */
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Spacing */
+  --spacing-4xs: 2px;
+  --spacing-3xs: 4px;
+  --spacing-2xs: 8px;
+  --spacing-xs: 12px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* Animations */
+  --animate-in: enter 200ms ease-out;
+  --animate-out: exit 150ms ease-in;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+@keyframes exit {
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}

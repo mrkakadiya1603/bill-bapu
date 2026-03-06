@@ -1,0 +1,57 @@
+# RestroSync — Clippy Configuration
+# Enterprise-grade strict linting for high-quality, maintainable Rust code.
+
+# Cognitive complexity threshold — keep functions understandable
+cognitive-complexity-threshold = 25
+
+# Maximum number of lines in a function body
+too-many-lines-threshold = 100
+
+# Maximum number of function arguments
+too-many-arguments-threshold = 7
+
+# Maximum number of struct fields
+max-struct-bools = 3
+
+# Type complexity threshold
+type-complexity-threshold = 250
+
+# Maximum number of enum variants
+enum-variant-size-threshold = 200
+
+# Single character binding names allowed
+single-char-binding-names-threshold = 4
+
+# Doc comment configuration
+missing-docs-in-crate-items = false
+
+# Allow these words in doc comments / identifiers without triggering typo lints
+doc-valid-idents = [
+    "RestroSync",
+    "PostgreSQL",
+    "SQLite",
+    "SeaORM",
+    "WebSocket",
+    "GST",
+    "CGST",
+    "SGST",
+    "IGST",
+    "FSSAI",
+    "KOT",
+    "RBAC",
+    "mDNS",
+    "NATS",
+    "PWA",
+    "UUID",
+    "UUIDs",
+    "OAuth",
+    "JWT",
+    "CORS",
+    "JSON",
+    "TypeScript",
+    "Tauri",
+    "Axum",
+]
+
+# Msrv — minimum supported Rust version
+msrv = "1.77.2"

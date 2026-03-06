@@ -668,6 +668,12 @@ chore/   → Maintenance tasks    (chore/update-dependencies)
 
 ---
 
+The **Tauri desktop app** cannot be built/run until system dependencies are installed. Run this once:
+
+sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf libgtk-3-dev libayatana-appindicator3-dev
+
+---
+
 ## 📖 Documentation
 
 | Document | Description |

@@ -1,0 +1,11 @@
+pub mod floors;
+pub mod menu_categories;
+pub mod menu_items;
+pub mod menu_variants;
+pub mod outlets;
+pub mod plans;
+pub mod restaurant_tables;
+pub mod roles;
+pub mod tenants;
+pub mod user_roles;
+pub mod users;

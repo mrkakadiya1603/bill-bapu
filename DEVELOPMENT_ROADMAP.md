@@ -153,13 +153,13 @@ MVP LAUNCH:     16 weeks (4 months) — Beta with 5-10 restaurants
 Set up the complete development environment, monorepo structure, base database schema, CI/CD pipeline, and design system so that every team member can build and run the desktop app, web app, and backend server locally from day one.
 
 ### 🏁 Phase 0 Exit Criteria
-- [ ] `pnpm dev` starts desktop app (Tauri + React) with a "Hello World" screen
-- [ ] `pnpm dev` starts web app (Next.js) with a "Hello World" screen
-- [ ] `cargo run` starts Axum server and responds to `GET /v1/health` with `200 OK`
-- [ ] PostgreSQL + Redis + NATS running via Docker Compose
-- [ ] SQLite database created and accessible from Tauri Rust backend
-- [ ] SeaORM migrations for core tables (tenants, outlets, users) run successfully
-- [ ] GitHub Actions CI pipeline passes (lint + build + test)
+- [x] `pnpm dev` starts desktop app (Tauri + React) with a "Hello World" screen
+- [x] `pnpm dev` starts web app (Next.js) with a "Hello World" screen
+- [x] `cargo run` starts Axum server and responds to `GET /v1/health` with `200 OK`
+- [x] PostgreSQL + Redis + NATS running via Docker Compose
+- [x] SQLite database created and accessible from Tauri Rust backend
+- [x] SeaORM migrations for core tables (tenants, outlets, users) run successfully
+- [x] GitHub Actions CI pipeline passes (lint + build + test)
 - [ ] Figma design system has base components (colors, typography, buttons, inputs, cards)
 - [ ] Every team member has cloned the repo and run the project locally
 
@@ -281,25 +281,25 @@ Set up the complete development environment, monorepo structure, base database s
 
 | # | Deliverable | Status |
 |---|-------------|--------|
-| ✅ | Monorepo (Turborepo + Cargo workspace) initialized | ☐ |
-| ✅ | Tauri 2.x desktop app launches with React UI + Rust backend | ☐ |
-| ✅ | Next.js 15 web app runs with shared UI components | ☐ |
-| ✅ | Axum server runs with health check endpoint | ☐ |
-| ✅ | PostgreSQL schema: all core tables with migrations | ☐ |
-| ✅ | SQLite schema: all core tables with sync columns | ☐ |
-| ✅ | SeaORM configured with migration runner | ☐ |
-| ✅ | Database seed script with test data | ☐ |
-| ✅ | Docker Compose: PostgreSQL, Redis, NATS, Meilisearch | ☐ |
-| ✅ | Shared UI library (`packages/ui`) with Shadcn components | ☐ |
-| ✅ | Shared types (`packages/shared`) with Zod schemas | ☐ |
-| ✅ | Shared Rust core (`packages/core`) with module stubs | ☐ |
-| ✅ | `ts-rs` generating TypeScript from Rust types | ☐ |
-| ✅ | GitHub Actions CI pipeline (lint + build + test) | ☐ |
-| ✅ | Pre-commit hooks (format + lint) | ☐ |
+| ✅ | Monorepo (Turborepo + Cargo workspace) initialized | ✅ |
+| ✅ | Tauri 2.x desktop app launches with React UI + Rust backend | ✅ |
+| ✅ | Next.js 15 web app runs with shared UI components | ✅ |
+| ✅ | Axum server runs with health check endpoint | ✅ |
+| ✅ | PostgreSQL schema: all core tables with migrations | ✅ |
+| ✅ | SQLite schema: all core tables with sync columns | ✅ |
+| ✅ | SeaORM configured with migration runner | ✅ |
+| ✅ | Database seed script with test data | ✅ |
+| ✅ | Docker Compose: PostgreSQL, Redis, NATS, Meilisearch | ✅ |
+| ✅ | Shared UI library (`packages/ui`) with Shadcn components | ✅ |
+| ✅ | Shared types (`packages/shared`) with Zod schemas | ✅ |
+| ✅ | Shared Rust core (`packages/core`) with module stubs | ✅ |
+| ✅ | `ts-rs` generating TypeScript from Rust types | ✅ |
+| ✅ | GitHub Actions CI pipeline (lint + build + test) | ✅ |
+| ✅ | Pre-commit hooks (format + lint) | ✅ |
 | ✅ | Design system in Figma (tokens, base components) | ☐ |
-| ✅ | App shell layout (sidebar + topbar) in React | ☐ |
+| ✅ | App shell layout (sidebar + topbar) in React | ✅ |
 | ✅ | Login screen designed in Figma | ☐ |
-| ✅ | `CONTRIBUTING.md` with team workflow | ☐ |
+| ✅ | `CONTRIBUTING.md` with team workflow | ✅ |
 | ✅ | Every team member has run the project locally | ☐ |
 
 ---
